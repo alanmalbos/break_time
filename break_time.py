@@ -1,6 +1,9 @@
 import webbrowser
 import time
 
-time.sleep(10)
+count = 0
 
-webbrowser.open("https://www.youtube.com/watch?v=jqPxJp5OJW0")
+while count < 3:
+	time.sleep(5)
+	webbrowser.open("https://www.youtube.com/watch?v=jqPxJp5OJW0")
+	count += 1
